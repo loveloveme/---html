@@ -1,0 +1,35 @@
+body{
+	margin:0px;
+	padding:0px;
+	text-align:justify;
+	font-size:12px;
+	background:url(images/img01.jpg) repeat-x;	
+}
+
+header{
+	border:red solid 1px;
+	margin:20px auto 0px auto;
+	height:71px;
+	width:900px;
+}
+
+#headerbg{
+	border:green solid 1px;
+	height:209px;
+	width:900px;
+	margin:0 auto;
+}
+
+#main{
+	border:blue solid 1px;
+	width:900px;
+	height:300px;
+	margin:0 auto;
+}
+
+footer{
+	border:black solid 1px;	
+	width:900px;
+	height:30px;
+	margin:0 auto;
+}
