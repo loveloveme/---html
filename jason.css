@@ -18,13 +18,22 @@ header{
 	height:209px;
 	width:900px;
 	margin:0 auto;
+	background:url(images/img05.jpg);
 }
 
-#main{
+#headerbg p{
+		font-color:white;
+}
+
+#main , #sidebar{
+	display:table;
 	border:blue solid 1px;
 	width:900px;
-	height:300px;
 	margin:0 auto;
+}
+
+.tableRow{
+	display:table-row;
 }
 
 footer{
@@ -32,4 +41,71 @@ footer{
 	width:900px;
 	height:30px;
 	margin:0 auto;
+}
+
+#logo{
+	float:left;	
+}
+
+#logo h1{
+	float:left;
+	background:url(images/img04.jpg) no-repeat left top;
+	height:45px;
+	padding-left:60px;
+	padding-top:10px;
+}
+
+#logo p{
+	float:left;	
+	margin-top:40px;
+}
+
+#menu{
+	float:right;
+}
+
+#menu li{
+	display:inline;	
+	list-style-type:none;
+}
+
+#latest-post{
+	width:500px;
+	display:table-cell;
+	padding-left:30px;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+#recent-post{
+	width:350px;
+	display:table-cell;
+	padding-left:55px;
+	padding-right:30px;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+#aside{
+	width:900px;
+	margin:0px auto;
+}
+
+aside#sidebar  ul li.special{
+	display:table-cell;
+	width:200px;
+}
+
+aside{
+	width:900px;
+	margin:0px auto;
+}
+
+footer p{
+	float:left;
+}
+
+footer p.link{
+	position:absolute;
+	right:230px;
 }
